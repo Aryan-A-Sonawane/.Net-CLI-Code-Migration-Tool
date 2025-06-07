@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "vXZiIrC9m6Y=",
+  "success": true,
+  "projectFilePath": "D:\\z.code\\dotNet\\DotNetMigrationTool\\analyzer\\analyzer\\analyzer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sarya\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.4\\microsoft.codeanalysis.analyzers.3.3.4.nupkg.sha512",
+    "C:\\Users\\sarya\\.nuget\\packages\\microsoft.codeanalysis.common\\4.11.0\\microsoft.codeanalysis.common.4.11.0.nupkg.sha512",
+    "C:\\Users\\sarya\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.11.0\\microsoft.codeanalysis.csharp.4.11.0.nupkg.sha512",
+    "C:\\Users\\sarya\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.5\\microsoft.net.illink.tasks.9.0.5.nupkg.sha512",
+    "C:\\Users\\sarya\\.nuget\\packages\\system.collections.immutable\\8.0.0\\system.collections.immutable.8.0.0.nupkg.sha512",
+    "C:\\Users\\sarya\\.nuget\\packages\\system.reflection.metadata\\8.0.0\\system.reflection.metadata.8.0.0.nupkg.sha512",
+    "C:\\Users\\sarya\\.nuget\\packages\\system.text.json\\9.0.0\\system.text.json.9.0.0.nupkg.sha512",
+    "C:\\Users\\sarya\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\9.0.5\\microsoft.netcore.app.runtime.win-x64.9.0.5.nupkg.sha512",
+    "C:\\Users\\sarya\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\9.0.5\\microsoft.windowsdesktop.app.runtime.win-x64.9.0.5.nupkg.sha512",
+    "C:\\Users\\sarya\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\9.0.5\\microsoft.aspnetcore.app.runtime.win-x64.9.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

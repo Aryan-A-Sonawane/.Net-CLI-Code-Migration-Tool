@@ -1,0 +1,9 @@
+<!-- sample.csproj -->
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Web" Version="4.0.0" />
+  </ItemGroup>
+</Project>
