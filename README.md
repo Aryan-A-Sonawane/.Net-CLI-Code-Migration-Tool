@@ -35,8 +35,4 @@ The tool aims to:
 - .NET SDK (v9.0 for building `analyzer.exe`)
 - Neo4j Aura account (optional for graph features)
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/dotnet-cli-migration-tool.git
-   cd dotnet-cli-migration-tool
+
