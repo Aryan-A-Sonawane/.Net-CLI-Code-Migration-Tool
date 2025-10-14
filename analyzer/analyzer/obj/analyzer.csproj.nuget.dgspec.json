@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\z.code\\dotNet\\DotNetMigrationTool\\analyzer\\analyzer\\analyzer.csproj": {}
+    "E:\\z.code\\dotNet\\DotNetMigrationTool\\analyzer\\analyzer\\analyzer.csproj": {}
   },
   "projects": {
-    "D:\\z.code\\dotNet\\DotNetMigrationTool\\analyzer\\analyzer\\analyzer.csproj": {
+    "E:\\z.code\\dotNet\\DotNetMigrationTool\\analyzer\\analyzer\\analyzer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\z.code\\dotNet\\DotNetMigrationTool\\analyzer\\analyzer\\analyzer.csproj",
+        "projectUniqueName": "E:\\z.code\\dotNet\\DotNetMigrationTool\\analyzer\\analyzer\\analyzer.csproj",
         "projectName": "analyzer",
-        "projectPath": "D:\\z.code\\dotNet\\DotNetMigrationTool\\analyzer\\analyzer\\analyzer.csproj",
-        "packagesPath": "C:\\Users\\sarya\\.nuget\\packages\\",
-        "outputPath": "D:\\z.code\\dotNet\\DotNetMigrationTool\\analyzer\\analyzer\\obj\\",
+        "projectPath": "E:\\z.code\\dotNet\\DotNetMigrationTool\\analyzer\\analyzer\\analyzer.csproj",
+        "packagesPath": "C:\\Users\\Aryan\\.nuget\\packages\\",
+        "outputPath": "E:\\z.code\\dotNet\\DotNetMigrationTool\\analyzer\\analyzer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sarya\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Aryan\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -54,11 +48,27 @@
               "target": "Package",
               "version": "[4.11.0, )"
             },
+            "Microsoft.CodeAnalysis.CSharp.Workspaces": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            },
+            "Microsoft.CodeAnalysis.Workspaces.Common": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            },
+            "Microsoft.CodeAnalysis.Workspaces.MSBuild": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.5, )",
+              "version": "[9.0.9, )",
               "autoReferenced": true
+            },
+            "Neo4j.Driver": {
+              "target": "Package",
+              "version": "[5.24.0, )"
             },
             "System.Text.Json": {
               "target": "Package",
@@ -79,15 +89,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[9.0.5, 9.0.5]"
+              "version": "[9.0.9, 9.0.9]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[9.0.5, 9.0.5]"
+              "version": "[9.0.9, 9.0.9]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[9.0.5, 9.0.5]"
+              "version": "[9.0.9, 9.0.9]"
             }
           ],
           "frameworkReferences": {
@@ -95,7 +105,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

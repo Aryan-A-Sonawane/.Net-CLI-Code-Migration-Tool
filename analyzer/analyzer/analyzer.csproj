@@ -11,11 +11,19 @@
     <SelfContained>true</SelfContained>
     <GenerateDependencyFile>true</GenerateDependencyFile>
     <NoDefaultLib>true</NoDefaultLib>
+    <StartupObject>Analyzer.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.11.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Workspaces" Version="4.11.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Workspaces.Common" Version="4.11.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Workspaces.MSBuild" Version="4.11.0" />
     <PackageReference Include="System.Text.Json" Version="9.0.0" />
+    <PackageReference Include="Neo4j.Driver" Version="5.24.0" />
   </ItemGroup>
+  <PropertyGroup>
+  <StartupObject>Neo4jTest.Neo4jConnectionTest</StartupObject>
+</PropertyGroup>
   <ItemGroup>
     <None Remove="**\*.dll" />
   </ItemGroup>
