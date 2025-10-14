@@ -6,9 +6,12 @@ namespace Neo4jTest
 {
     class Neo4jConnectionTest
     {
-        private static readonly string Neo4jUri = "neo4j+s://b8cac1b8.databases.neo4j.io";
-        private static readonly string Neo4jUser = "neo4j";
-        private static readonly string Neo4jPassword = "WdvWJgEOcboJyssTvyivZnr5RdrinwioDyu4NUZvhvI";
+
+
+        private static readonly string Neo4jUri = "neo4j+s://<YOUR_URI_HERE>.databases.neo4j.io";
+        private static readonly string Neo4jUser = "<YOUR_USERNAME_HERE>";
+        private static readonly string Neo4jPassword = "YOURPASSWORD";
+        
 
         static async Task Main()
         {
